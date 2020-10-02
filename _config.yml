@@ -1,6 +1,7 @@
 name: Sik-Kim
 author: Jeong Sik Kim
-baseurl: "GITHUB_BLOG"
+url : "https://sik-kim.github.io"
+baseurl: ""
 description:  techblog
 github: https://github.com/Sik-Kim
 # twitter: http://www.twitter.com/
