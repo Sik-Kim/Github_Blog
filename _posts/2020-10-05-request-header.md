@@ -2,14 +2,16 @@
 title: HTTP Request message 구조
 # cover-image: korea.jpg
 
-# summary: GNU/LINUX 설명
+summary: HTTP Request message 구조
 ---
 
 ## HTTP Request message 구조
+![request message](https://images.unsplash.com/photo-1601611818123-c45c4d83d4ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7fe5f60e-3866-48a0-abe7-cde61c0e001c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7fe5f60e-3866-48a0-abe7-cde61c0e001c/Untitled.png)
+![request message](https://www.notion.so/sikkim/Request-message-d982e1ad3e8544468d856d6f6b2f4cd9#abd7451e6f9445faa1c03d402ece044f)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b5bdd49-744c-49cc-ad01-16c82a11913d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b5bdd49-744c-49cc-ad01-16c82a11913d/Untitled.png)
+
+
 
 ## Request Line (첫째 줄)
 
@@ -33,10 +35,10 @@ title: HTTP Request message 구조
 ### Host: localhost:8080
 
 - Host : 인터넷에 연결되어 있는 컴퓨터 한대한대를 식별하는 이름
-- [localhost:8080](http://localhost:8080) : 웹브라우저가 request 하는 웹서버의 주소를 나타냄
+- localhost:8080 : 웹브라우저가 request 하는 웹서버의 주소를 나타냄
 - 1개의 웹서버가 여러개의 호스트를 가지고 있을 수 있다.
 
-    가령 1개의 웹서버가 a.com, b.com, [c.com](http://c.com) 3개의 사이트를 호스팅하고 있을때 각각의 [localhost](http://localhost) 주소는 다를 것이다. 이때 각각의 호스트는 가상호스트이다.
+    가령 1개의 웹서버가 a.com, b.com, c.com 3개의 사이트를 호스팅하고 있을때 각각의 localhost 주소는 다를 것이다. 이때 각각의 호스트는 가상호스트이다.
 
 - 8080 : Port 번호(1대의 컴퓨터에는 여러개의 웹서버가 설치될 수 있는데 그것을 식별)
 
