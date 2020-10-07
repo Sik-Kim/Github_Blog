@@ -7,7 +7,7 @@ summary: HTTP Response message 구조
 
 ## Response message 구조
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/531f3af7-d493-4c7a-bc4e-ce85e79f9183/Untitled.png](https://www.notion.so/sikkim/Response-message-60e68d2160864696a813717722624115#8e8b896114f941c4a0323391e50e9a92)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/531f3af7-d493-4c7a-bc4e-ce85e79f9183/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/531f3af7-d493-4c7a-bc4e-ce85e79f9183/Untitled.png)
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78c220d0-68d2-4eaf-9ea8-ccb5905af5a9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78c220d0-68d2-4eaf-9ea8-ccb5905af5a9/Untitled.png)
 
