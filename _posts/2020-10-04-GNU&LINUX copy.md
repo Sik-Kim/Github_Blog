@@ -1,5 +1,5 @@
 ---
-title: GNU/LINUX
+title: GNU/LINUX xxx
 # cover-image: korea.jpg
 
 summary: GNU/LINUX 설명
@@ -8,9 +8,10 @@ summary: GNU/LINUX 설명
 ## GNU/LINUX
 
 CLI 기반 OS의 한 종류로 LINUX는 Web Server를 운영하는 컴퓨터의 OS로 주로 사용된다.
-정확한 명칭은 GNU/LINUX이나 흔히 LINUX라고 불린다. - OS의 Kernal : **LINUX**  
- - OS의 나머지 부분 : **GNU Project**
-LINUX 또한 GUI 기능을 제공하기도 한다.
+정확한 명칭은 GNU/LINUX이나 흔히 LINUX라고 불린다. - OS의 Kernal : **LINUX**
+
+- OS의 나머지 부분 : **GNU Project**
+  LINUX 또한 GUI 기능을 제공하기도 한다.
 
 GNU/LINUX history 1. 리처드 스톨먼에 의해 GNU Project 개발 (GNU = GNU's not Unix로 소프트웨어의 상업화를 반대하는 의미로 오픈소스로 개발됨) 2. 이후 리누스 토발즈가 GNU Project에 의해 LINUX를 개발 3. LINUX는 무료 오픈소스로 풀리며 수많은 개발자들을 통해 급격한 발전 (UNIX, Window, Mac OS는 유료) (오픈소스의 모체급..)
 
