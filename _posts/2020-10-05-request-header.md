@@ -5,32 +5,45 @@ title: HTTP Request message 구조
 summary: HTTP Request message 구조
 ---
 
-## HTTP Request message 구조
-![request message](https://www.notion.so/sikkim/Request-message-d982e1ad3e8544468d856d6f6b2f4cd9#abd7451e6f9445faa1c03d402ece044f)
+<br>
 
-![request message](https://www.notion.so/sikkim/Request-message-d982e1ad3e8544468d856d6f6b2f4cd9#c5018f7412ca43caaa14e604f65c217b)
+## HTTP Request message 예시
 
+![pic1](/Users/jeongsikkim/Documents/Github_Blog/img/2020-10-05/pic1.png)
 
+![pic2](/Users/jeongsikkim/Documents/Github_Blog/img/2020-10-05/pic2.png)
 
+<br>
+<br>
 
 ## Request Line (첫째 줄)
 
+
 ### Method(GET) : 웹브라우저와 웹서버가 어떤 방식으로 통신할 것인가
 
-- GET : 리소스 획득(데이터를 웹서버로부터 가져올때 사용) - READ
-- POST : 엔티티 전송 - UPDATE
-- PUT : 파일 전송 - CREATE
+- GET : 리소스 획득(데이터를 웹서버로부터 가져올때 사용) (READ)
+- POST : 엔티티 전송 (UPDATE)
+- PUT : 파일 전송 (CREATE)
 - HEAD : 메시지 헤더 취득
-- DELETE : 파일 삭제 - DELETE
+- DELETE : 파일 삭제 (DELETE)
 - OPTIONS : 제공하고 있는 메소드의 문의
 - TRACE : 경로 조사
 - CONNECT : 프록시에 터널링 요구
 
+<br>
+
 ### URL(1.html) : 웹서버에 요청하는 정보가 무엇인가. (웹서버는 1.html 내용을 확인해서 웹브라우저 요청에 대해 응답한다.
+
+<br>
 
 ### HTTP Version(HTTP/1.1) : 웹브라우저가 현재 사용하고 있는 HTTP의 Version
 
+<br>
+<br>
+
 ## Request Header
+
+
 
 ### Host: localhost:8080
 
@@ -42,15 +55,21 @@ summary: HTTP Request message 구조
 
 - 8080 : Port 번호(1대의 컴퓨터에는 여러개의 웹서버가 설치될 수 있는데 그것을 식별)
 
+<br>
+
 ### User-Agent
 
 - Web Browser의 다른 표현
 - 현재 사용하는 웹브라우저, OS 정보를 전송함
 
+<br>
+
 ### Accept-Encoding
 
 - 웹브라우저가 지원하는 압축 방식을 나타냄
 - 웹서버가 웹브라우저에게 네트워크 전송 효율을 위해 데이터를 압축해서 보내는 경우 이 정보를 필요로 함
+
+<br>
 
 ### If-Modified-Since
 
