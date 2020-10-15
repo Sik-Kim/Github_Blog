@@ -7,17 +7,17 @@ summary: HTTP Request message 구조
 
 <br>
 
-## HTTP Request message 예시
+### HTTP Request message 예시
+![request_message]({{ site.baseurl }}/img/2020-10-05/pic1.png)
 
-![pic1](/Users/jeongsikkim/Documents/Github_Blog/img/2020-10-05/pic1.png)
-
-![pic2](/Users/jeongsikkim/Documents/Github_Blog/img/2020-10-05/pic2.png)
+![request_message]({{ site.baseurl }}/img/2020-10-05/pic2.png)
 
 <br>
 <br>
 
 ## Request Line (첫째 줄)
 
+<br>
 
 ### Method(GET) : 웹브라우저와 웹서버가 어떤 방식으로 통신할 것인가
 
@@ -43,7 +43,7 @@ summary: HTTP Request message 구조
 
 ## Request Header
 
-
+<br>
 
 ### Host: localhost:8080
 
