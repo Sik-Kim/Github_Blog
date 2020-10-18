@@ -1,14 +1,12 @@
-
 # The name of your website.
 name: Sik-Kim
 
-description:
-
+description: 공부한 내용을 기록하고 간결하게 글 쓰는 연습을 하고 있습니다.
   # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta:
 
   # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/stijnvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle: 공부한 내용을 기록하고 간결하게 글 쓰는 연습을 하고 있습니다.
 
 author:
   name: Jeong Sik Kim # Change this!
@@ -21,7 +19,7 @@ author:
   info:
 
 url: Sik-Kim.github.io
-baseurl: ""
+baseurl: ''
 
 # language attribute in <html> element.
 lang: en
@@ -45,10 +43,10 @@ footer-text: This is the footer.<br><a href="http://stijnvc.github.io/holo-alfa/
 logo-image: # /img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#00f0ff"
+theme-color-attr: '#00f0ff'
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#00f0ff"
+ms-tile-color: '#00f0ff'
 
 # Color used throughout the theme. Format: R, G, B.
 theme-color: 0, 240, 255 # Original: 0, 240, 255
@@ -67,7 +65,7 @@ display-author-post-page: true
 display-author-front-page: true
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-date_format: "%b %-d, %Y"
+date_format: '%b %-d, %Y'
 
 # Minimal screen-width after which the navigation will change position from
 # vertical to horizontal.
@@ -81,7 +79,6 @@ display-next-prev-post: false
 
 # Leave empty if you don't want comments on post pages.
 disqus-shortname:
-
 
 ################
 # SOCIAL ICONS #
@@ -108,7 +105,6 @@ stack-overflow:
 bitcoin:
 paypal:
 
-
 #####################
 # CUSTOMIZABLE TEXT #
 #####################
@@ -128,7 +124,6 @@ var_guest_post_by: Guest post by
 var_your_email: Your email
 var_your_message: Your message
 
-
 ##################
 # BUILD SETTINGS #
 ##################
@@ -139,13 +134,12 @@ exclude: [vendor]
 highlighter: rouge
 kramdown:
   input: GFM
-paginate_path: "/page-:num/"
+paginate_path: '/page-:num/'
 permalink: pretty
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
-      excerpt_separator: "<!--more-->"
+      layout: 'post'
+      excerpt_separator: '<!--more-->'
