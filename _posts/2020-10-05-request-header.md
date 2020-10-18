@@ -18,8 +18,8 @@ summary: HTTP Request message 구조
 
 
 
-### Method(GET)
-웹브라우저와 웹서버가 어떤 방식으로 통신할 것인가
+### Method
+웹브라우저와 웹서버가 통신하는 방식
 
 - GET : 리소스 획득(데이터를 웹서버로부터 가져올때 사용) (READ)
 - POST : 엔티티 전송 (UPDATE)
