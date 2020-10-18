@@ -13,11 +13,10 @@ summary: HTTP Request message 구조
 ![request_message]({{ site.baseurl }}/img/2020-10-05/pic2.png)
 
 <br>
-<br>
 
 ## Request Line (첫째 줄)
 
-<br>
+
 
 ### Method(GET)
 웹브라우저와 웹서버가 어떤 방식으로 통신할 것인가
@@ -39,11 +38,10 @@ summary: HTTP Request message 구조
 웹브라우저가 현재 사용하고 있는 HTTP의 Version
 
 <br>
-<br>
 
 ## Request Header
 
-<br>
+
 
 ### Host: localhost:8080
 
@@ -55,21 +53,21 @@ summary: HTTP Request message 구조
 
 - 8080 : Port 번호(1대의 컴퓨터에는 여러개의 웹서버가 설치될 수 있는데 그것을 식별)
 
-<br>
+
 
 ### User-Agent
 
 - Web Browser의 다른 표현
 - 현재 사용하는 웹브라우저, OS 정보를 전송함
 
-<br>
+
 
 ### Accept-Encoding
 
 - 웹브라우저가 지원하는 압축 방식을 나타냄
 - 웹서버가 웹브라우저에게 네트워크 전송 효율을 위해 데이터를 압축해서 보내는 경우 이 정보를 필요로 함
 
-<br>
+
 
 ### If-Modified-Since
 
