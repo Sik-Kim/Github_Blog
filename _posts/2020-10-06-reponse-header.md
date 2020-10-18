@@ -5,15 +5,15 @@ title: HTTP Response message 구조
 summary: HTTP Response message 구조
 ---
 
-## Response message 구조
+### Response message 구조
 
 ![response_message]({{ site.baseurl }}/img/2020-10-06/pic1.png)
 
 ![response_message]({{ site.baseurl }}/img/2020-10-06/pic2.png)
 
-## Status
+### Status
 
-### HTTP/1.1 200 OK
+#### HTTP/1.1 200 OK
 
 - 1xx : 정보를 주기위한 응답
 - 2xx : 통신 성공
@@ -25,19 +25,19 @@ summary: HTTP Response message 구조
 - 404 Not Found : 요청한 리소스가 없어 웹서버가 전송할 수 없음
 - 500 Internal Server Error : Web Server 내부 문제로 전송이 불가할 때
 
-### Last-Modified: Tue, 17 Jul 2018 23:28:26 GMT
+#### Last-Modified: Tue, 17 Jul 2018 23:28:26 GMT
 
 - content의 마지막 수정 시간을 표시
 
-### Content-Encoding: gzip
+#### Content-Encoding: gzip
 
 - content의 압축 방식 표시 (gzip으로 압축해서 response 함)
 
-### Content-Length: 1434
+#### Content-Length: 1434
 
 - Content의 전체 크기 표시(Content의 전체 크기는 1434byte)
 
-### Content-Type : text/html
+#### Content-Type : text/html
 
 - 웹서버가 응답할 때 text를 html 형태로 response 한 것
 - 웹브라우저는 Content-Type에 맞춰 UI를 실행한다
