@@ -19,7 +19,8 @@ summary: HTTP Request message 구조
 
 <br>
 
-### Method(GET) : 웹브라우저와 웹서버가 어떤 방식으로 통신할 것인가
+### Method(GET)
+웹브라우저와 웹서버가 어떤 방식으로 통신할 것인가
 
 - GET : 리소스 획득(데이터를 웹서버로부터 가져올때 사용) (READ)
 - POST : 엔티티 전송 (UPDATE)
@@ -30,13 +31,12 @@ summary: HTTP Request message 구조
 - TRACE : 경로 조사
 - CONNECT : 프록시에 터널링 요구
 
-<br>
 
-### URL(1.html) : 웹서버에 요청하는 정보가 무엇인가. (웹서버는 1.html 내용을 확인해서 웹브라우저 요청에 대해 응답한다.
+### URL(1.html)
+웹서버에 요청하는 정보가 무엇인가. (웹서버는 1.html 내용을 확인해서 웹브라우저 요청에 대해 응답한다.
 
-<br>
-
-### HTTP Version(HTTP/1.1) : 웹브라우저가 현재 사용하고 있는 HTTP의 Version
+### HTTP Version(HTTP/1.1)
+웹브라우저가 현재 사용하고 있는 HTTP의 Version
 
 <br>
 <br>
