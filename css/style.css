@@ -111,24 +111,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 2.5em;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 h2 {
   font-size: 2em;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-bottom: 10px;
 }
 
 h3 {
   font-size: 1.5em;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 h4, h5, h6 {
   font-size: 1.125em;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 .meta {
@@ -450,24 +450,24 @@ nav a.current {
   }
   h1 {
     font-size: 2.5em;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
   }
   h2 {
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 10px;
   }
   
   h3 {
     font-size: 1.5em;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
   }
   
   h4, h5, h6 {
     font-size: 1.125em;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
   }
   .img-only {
