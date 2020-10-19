@@ -1,54 +1,83 @@
 ---
-title: [HTML] id vs class
+title: LINUX 기본 명령어 정리
+# cover-image: korea.jpg
 
-
-summary: id와 class를 비교해보자
+summary: 자주 쓰는 CLI 명령어 정리(Mac 기반)
 ---
 
-# id vs class
+<br>
 
-### HTML Tag 속성인 id와 class의 기능과 차이점
+### CLI(Command Line Interface) :
 
-id와 class 둘다 태그에 이름을 주는 속성입니다.
-
-id와 class의 다른점은?
-
-id : id는 고유한 값이어야 합니다. 즉, id명은 오직 하나만 가질 수 있고 다른 tag라 할지라도 같은명을 중복해서 사용할 수 없습니다.
-
-> <div id="profile">
-
-class : id와 다르게 다른 tag라면 중복하여 사용 할 수 있습니다.
-
-> ```html
-> <div class="content-wrap"></div>
-> <p class="content-wrap"></p>
-> ```
+- 명령어로 컴퓨터를 제어하는 것
+- 현재 머물고 있는 directory 안의 파일에 한해서 명령을 실행한다.
+- 대소문자 구분 잘하기
+<br>
+<br>
 
 
+| **기본 명령어**                                                   | **실행** **내용**                                            | **Files**                                                    |
+|  |  |  |
+| **ls**                                                       | list 확인                                                    |                                                              |
+| **ls -l**                                                    | list 확인(상세)                                              | 명령어 뒤로 -와 함꼐 작성하는 것을 Parameter라고 한다. 동작하는 방법을 바꾸는 역할이다. |
+| **ls -a**                                                    | list 확인(감춰진 파일 포함)                                  | 감춰진 파일명 젤 앞에 . 붙음                                 |
+| **ls -al**                                                   | list 확인(상세 + 감춰진 파일)                                |                                                              |
+| **ls -l bak**                                                | bak 폴더안의 list 확인                                       |                                                              |
+| **ls -alS**                                                  | list 확인(파일 사이즈로 정렬)                                |                                                              |
+| **pwd**                                                      | 현재 위치 확인                                               |                                                              |
+| **mkdir** **폴더명**                                         | 폴더 만들기                                                  |                                                              |
+| **mkdir -p** **폴더****1/****폴더****2/****폴더****3**       | 여러 폴더 한번에 만들기                                      |                                                              |
+| **touch empty_file.txt**                                     | txt 파일 만들기                                              | 사실 touch는 좀 다른 명령할떄 주로 쓰는거긴함.               |
+| **cd**                                                       | 위치 초기화                                                  |                                                              |
+| **cd helloworld/hello**                                      | 현재 디렉토리 내에 있는 폴더로 이동(현재 위치 내 해당 폴더가 없다면 명령 수행 안함) |                                                              |
+| **cd ~/Downloads**                                           | 현재 위치 상관없이 지정한 디렉토리로 이동                    | 절대 경로                                                    |
+| **cd ..**                                                    | 부모 디렉토리로 이동                                         | 상대 경로                                                    |
+| **rm empty_file.txt**                                        | empty_file.txt 파일 삭제                                     |                                                              |
+| **rm -r hi**                                                 | hi 폴더를 삭제                                               | -r은 폴더 내부 파일 모두 삭제, 위험! 사용 유의!              |
+| **help vs man**                                              |                                                              |                                                              |
+| **rm —help** **ls —help** **등**                             | 명령어 help 도움말 검색                                      |                                                              |
+| **man rm** **man ls** **등**                                 | 더 자세한 도움말 검색(전용 페이지로 이동)                    | 검색: / 검색 결과들 이동: N 종료: Q                          |
+| **mv abc.txt hi1.abcd.txt**                                  | abc.txt 파일을 hi1 폴더에 이름 abcd.txt로 이동               |                                                              |
+| **mv abcd.txt hi2**                                          | abcd.txt 파일을 hi2 폴더에 이동                              |                                                              |
+| **cp abcd.txt aaa.txt**                                      | abcd.txt를 aaa.txt이름으로 복사                              |                                                              |
+| **cp \*.log bak**                                            | *.log 파일을 bak 폴더에 복사                                 |                                                              |
+| **cp -R ~/Downloads/hello/helloworld ~/Downloads/hello/hi1** | helloworld 폴더를 hi1 폴더안에 복사                          |                                                              |
+| **mkdir abc;cd abc**                                         | abc 폴더를 만들고 abc 폴더로 이동                            | ;사용해서 다중 명령                                          |
+| **grep tomato**                                              | tomato만 찾아줌                                              |                                                              |
+| **ls —help \| grep sort**                                    | ls —help에서 sort만 찾아라                                   | <터미널에서 안됨...>                                         |
+| **ls —help \| grep sort \| grep file**                       | sort표기된 텍스트중 file 표기된 텍스트 찾기                  | \| : PIPE LINE                                               |
+| **ps aux**                                                   | 사용중인 프로그램 목록                                       |                                                              |
+| **ps aux \| grep apache**                                    | 그 목록중 apache만 가져오기                                  | PID 프로세스 고유번호                                        |
+| **sudo kill PID****번호**                                    | 지정한 PID번호의 프로그램 실행 종료                          |                                                              |
+| **ls -l > result.txt**                                       | ls -l 결과를 result.txt로 저장                               | REDIRECTION                                                  |
+| **sudo top**                                                 | top 실행                                                     | prcess 조회                                                  |
+| **cat result.txt**                                           | result.txt를 읽음                                            |                                                              |
+| **cat**                                                      | 사용자 입력                                                  | 나올떄 control + D                                           |
+| **echo "hello"**                                             | hello 입력                                                   |                                                              |
+| **—— Find: locate, find, whereis, $PATH**                    | ————————————————————                                         | ————————————                                                 |
+| **locate \*.log**                                            | 모든 *.log를 찾아줌(db사용)                                  | locate는 directory가 아닌 db에서 파일을 찾음                 |
+| **sudo updatedb**                                            | mlocate라는 db에 저장된 파일들을 저장(LINUX에서 하루에 1번 자동으로 수행함) |                                                              |
+| **find —help \| head**                                       |                                                              |                                                              |
+| **find /**                                                   | root directory 부터 찾는다.                                  |                                                              |
+| **find .**                                                   | 현재 directory부터 하위로 찾는다.                            |                                                              |
+| **find / -name \*.log**                                      | 컴퓨터의 모든 directory에서 *.log를 찾음                     | 권한 거부될 수 있음                                          |
+| **sudo find / -name \*.log**                                 | (권한)                                                       |                                                              |
+| **whereis ls**                                               | ls 실행파일 찾는 법                                          | $PATH에 의해 아무 directory에서 실행 가능                    |
 
+<br>
 
+### ls -l 결과
 
-### id와 class에 css 적용하는 법
+```
+jeongsikkim@JEONGSIKui-MacBookPro hello % ls -l
+total 8
+-rw-r--r--@ 1 jeongsikkim staff 6 10 7 00:18 empty_file.txt
+drwxr-xr-x 2 jeongsikkim staff 64 10 7 00:20 helloworld
+drwxr-xr-x 2 jeongsikkim staff 64 10 7 00:20 hi
 
-Id: #id명
+첫 글자 d : directory
+첫 글자 - : 파일
 
-> ```css
-> #profile {
->   border-width: 1px;
->   border-color: black;
->   border-style: solid;
->   text-align: center;
-> }
-> ```
+```
 
-
-
-Class: #class명
-
-> ```css
-> .content-wrap{
->   background-color: yellow;
->   margin : 0 auto;
-> }
-> ```
-
+<br>
