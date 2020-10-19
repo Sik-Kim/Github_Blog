@@ -1,4 +1,11 @@
-# [HTML] id vs class
+---
+title: [HTML] id vs class
+
+
+summary: id와 class를 비교해보자
+---
+
+# id vs class
 
 ### HTML Tag 속성인 id와 class의 기능과 차이점
 
