@@ -1,8 +1,8 @@
 ---
-title: LINUX 기본 명령어 정리
+title: [HTML] id vs class
 # cover-image: korea.jpg
 
-summary: 자주 쓰는 CLI 명령어 정리(Mac 기반)
+summary: id와 class를 비교해보자
 ---
 
 
